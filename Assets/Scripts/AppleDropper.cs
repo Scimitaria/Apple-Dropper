@@ -3,7 +3,6 @@ using UnityEngine;
 
 public class AppleDropper : MonoBehaviour
 {
-    private Vector2 spawnPosition;
     private static WaitForSeconds _waitForSeconds1 = new WaitForSeconds(1f);
     public GameObject[] ApplePrefabs;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -14,12 +13,12 @@ public class AppleDropper : MonoBehaviour
 
     IEnumerator DropApples()
     {
-        spawnPosition.y = 4;
+        float y = transform.position.y;
         Quaternion rotation = Quaternion.Euler(0, 0, 0);
         while (true)
         {
-            spawnPosition.x = Random.Range(-8, 8);
-            Instantiate(ApplePrefabs[0], spawnPosition, rotation);
+            transform.position = new Vector2(Random.Range(-8, 8),y);
+            Instantiate(ApplePrefabs[0], transform.position, rotation);
             yield return _waitForSeconds1;
         }
     }
