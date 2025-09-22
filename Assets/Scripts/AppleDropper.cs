@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class AppleDropper : MonoBehaviour
 {
-    private static WaitForSeconds _waitForSeconds1 = new WaitForSeconds(1f);
+    private int difficulty = 1;
     public GameObject[] ApplePrefabs;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -22,7 +22,7 @@ public class AppleDropper : MonoBehaviour
             if (Random.Range(0, 9) == 1) selector = 1;
             transform.position = new Vector2(Random.Range(-8, 8), y);
             Instantiate(ApplePrefabs[selector], transform.position, rotation);
-            yield return _waitForSeconds1;
+            yield return new WaitForSeconds(2/difficulty);
         }
     }
 }

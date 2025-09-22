@@ -9,17 +9,19 @@ public class Apple : MonoBehaviour
     {
         if (collision.name == "Basket")
         {
+            if (gameObject.name == "Bomb(Clone)") Destroy(collision.gameObject);
+    
             isDestroying = true;
             Destroy(gameObject);
         }
     }
     void OnBecameInvisible()
     {
-        if (!isDestroying)
+        if (!isDestroying && gameObject.name == "Apple(Clone)")
         {
             try { Destroy(GameObject.Find("Basket")); }//this doesn't work
             catch { SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); }
-            //Destroy(gameObject);
+            Destroy(gameObject);
         }
         else isDestroying = false;
     }
