@@ -15,10 +15,13 @@ public class AppleDropper : MonoBehaviour
     {
         float y = transform.position.y;
         Quaternion rotation = Quaternion.Euler(0, 0, 0);
+        int selector = 0;
         while (true)
         {
-            transform.position = new Vector2(Random.Range(-8, 8),y);
-            Instantiate(ApplePrefabs[0], transform.position, rotation);
+            selector = 0;
+            if (Random.Range(0, 9) == 1) selector = 1;
+            transform.position = new Vector2(Random.Range(-8, 8), y);
+            Instantiate(ApplePrefabs[selector], transform.position, rotation);
             yield return _waitForSeconds1;
         }
     }

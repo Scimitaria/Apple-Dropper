@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "ipnut",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "e4109ab6-7bb0-474a-8089-720eb59eacae",
+            "actions": [
+                {
+                    "name": "MouseMove",
+                    "type": "Value",
+                    "id": "e01fa600-78ba-49b5-8527-27235f2c9f6d",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0a3c1863-dbbc-45b6-bad1-e1400ca298d4",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MouseMove",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
