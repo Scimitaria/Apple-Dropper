@@ -26,7 +26,7 @@ public class AppleDropper : MonoBehaviour
             if (applesDropped % 20 == 0 && chance > 3) chance -= 1;
             else if (applesDropped % 10 == 0) frequency += 0.5f;
 
-            if (Random.Range(1, chance) == 1) selector = 1;
+            if (Random.Range(1, 2) == 1) selector = 1;
             transform.position = new Vector2(Random.Range(-8, 8), y);
             Instantiate(ApplePrefabs[selector], transform.position, rotation);
             applesDropped += 1;

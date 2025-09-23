@@ -1,12 +1,13 @@
-
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class ScoreManager : MonoBehaviour
+public class Score : MonoBehaviour
 {
     public Text scoreText;
+    public GameObject[] baskets;
+    private int i;
     public int score;
-    private int prevScore;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -18,10 +19,14 @@ public class ScoreManager : MonoBehaviour
     {
         scoreText.text = score.ToString("D6");
     }
+    public void OOB()
+    {
+        if (i > 2)SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        else Destroy(baskets[i]);
+        i ++;
+    }
     public void AddScore(int points)
     {
-        int prevScore = score;
-
         score += points;
         UpdateScore();
     }

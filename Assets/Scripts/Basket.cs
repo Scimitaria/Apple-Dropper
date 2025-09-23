@@ -5,12 +5,6 @@ public class Basket : MonoBehaviour
 {
     private float movement;
     public float speed;
-    private Vector2 startPosition;
-
-    void Start()
-    {
-        startPosition = transform.position;
-    }
 
     void OnMouseMove(InputValue value)
     {

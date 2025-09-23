@@ -2,45 +2,42 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+[RequireComponent(typeof(Rigidbody2D))]
 public class Apple : MonoBehaviour
 {
+    private Score score;
+    private Rigidbody2D rb;
     private bool isDestroying = false;
-    public GameObject[] baskets = new GameObject[3];
-    private ScoreManager scoreManager;
     void Start()
     {
-        GameObject parentObject = GameObject.Find("Baskets");
-        scoreManager = FindFirstObjectByType<ScoreManager>();
-        for (int i = 0; i < parentObject.transform.childCount; i++)
-        {
-            baskets[i] = parentObject.transform.GetChild(i).gameObject;
-        }
+        score = FindFirstObjectByType<Score>();
+        rb = GetComponent<Rigidbody2D>();
     }
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.name == "Basket")
+        if (collision.name.Contains("Basket"))
         {
             if (gameObject.name == "Bomb(Clone)")
             {
                 gameObject.GetComponent<Animator>().SetTrigger("splode");
-                if (baskets.Length <= 1) SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-                else Destroy(collision.gameObject);
+                rb.gravityScale = 0;
+                rb.linearVelocity = Vector2.zero;
+                gameObject.GetComponent<Collider2D>().enabled = false;
+                Destroy(collision.gameObject);
             }
-            else scoreManager.AddScore(10);
-    
+            else score.AddScore(10);
+
             isDestroying = true;
-            Destroy(gameObject);
+            if (gameObject.name == "Apple(Clone)") Destroy(gameObject);
         }
     }
     void OnBecameInvisible()
     {
-        if (!isDestroying && gameObject.name == "Apple(Clone)")
-        {
-            if (baskets.Length <= 1) SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-            else Destroy(baskets[0]);
-
-            Destroy(gameObject);
-        }
-        else isDestroying = false;
+        if (gameObject.name == "Apple(Clone)" && !isDestroying) score.OOB();
+        Destroy(gameObject);
+    }
+    void explodeOver()
+    {
+        Destroy(gameObject);
     }
 }
