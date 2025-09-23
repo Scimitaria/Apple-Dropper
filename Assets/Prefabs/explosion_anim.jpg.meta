@@ -1,0 +1,871 @@
+fileFormatVersion: 2
+guid: 58f2407d80839437b8ff25b37ceaabcf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1384019006384410279
+    second: 428-4289579_unity-sprite-sheet-explosion-hd-png-download_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 428-4289579_unity-sprite-sheet-explosion-hd-png-download_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 328
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ae8ee514f5053310800000000000000
+      internalID: 1384019006384410279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 428-4289579_unity-sprite-sheet-explosion-hd-png-download_1
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 339
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d23557884e394e80a584f591180270d
+      internalID: 1599388964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 428-4289579_unity-sprite-sheet-explosion-hd-png-download_2
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 339
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb03b5a6bebd640b68f462cecf5a5a7d
+      internalID: 1163082342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 428-4289579_unity-sprite-sheet-explosion-hd-png-download_3
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 339
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a123a3b96ef4944ad3d7a032096ea4
+      internalID: -889496862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 428-4289579_unity-sprite-sheet-explosion-hd-png-download_4
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 339
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4644d8a0915e148e38c0b43d35444cb4
+      internalID: -1634468367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 428-4289579_unity-sprite-sheet-explosion-hd-png-download_5
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 339
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d9613d1d9dbf4afd805ed58fe283e00
+      internalID: -291563891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 428-4289579_unity-sprite-sheet-explosion-hd-png-download_6
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 339
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1a69d00a6de473d9b39e6172cd2a9a
+      internalID: -1637916181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 428-4289579_unity-sprite-sheet-explosion-hd-png-download_7
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 339
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3747ee55d4034366b14cca4636a9263
+      internalID: -1015660204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 428-4289579_unity-sprite-sheet-explosion-hd-png-download_8
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 226
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd58f28d01074aff92835bb9f8c77c7
+      internalID: 412629535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 428-4289579_unity-sprite-sheet-explosion-hd-png-download_9
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 226
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd24aaff6033d45bda8b7fc82ec0a331
+      internalID: -1972302620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 428-4289579_unity-sprite-sheet-explosion-hd-png-download_10
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 226
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7048caf77533648469ef6f358c9953c9
+      internalID: 1351203786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 428-4289579_unity-sprite-sheet-explosion-hd-png-download_11
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 226
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf94423b047464f088617e898f636c78
+      internalID: 677509959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 428-4289579_unity-sprite-sheet-explosion-hd-png-download_12
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 226
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729a0d73bb84a4efbbdd29248fb237fd
+      internalID: -1712325049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 428-4289579_unity-sprite-sheet-explosion-hd-png-download_13
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 226
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad70a8905202483087474460c38e66d
+      internalID: 1341930124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 428-4289579_unity-sprite-sheet-explosion-hd-png-download_14
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 226
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ccf7bcdca762482bb76ac02d272d1ec
+      internalID: 1256345801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 428-4289579_unity-sprite-sheet-explosion-hd-png-download_15
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 226
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796d3170c66a44cb8a7a25744a60879c
+      internalID: -835069389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 428-4289579_unity-sprite-sheet-explosion-hd-png-download_16
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 113
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7538570426bc4291af13e0ebf94a6d3
+      internalID: 535437512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 428-4289579_unity-sprite-sheet-explosion-hd-png-download_17
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 113
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2b5dc1427d2403682c347bf68d49aa
+      internalID: 312956210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 428-4289579_unity-sprite-sheet-explosion-hd-png-download_18
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 113
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791eb6a2a80e14bc5b237fad39f9b5dc
+      internalID: -87769941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 428-4289579_unity-sprite-sheet-explosion-hd-png-download_19
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 113
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e3d48b84bc4480a9b7e6e605222510
+      internalID: -574847484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 428-4289579_unity-sprite-sheet-explosion-hd-png-download_20
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 113
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e68ddffdf52432495ca4b54a95dff7
+      internalID: -2105730150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 428-4289579_unity-sprite-sheet-explosion-hd-png-download_21
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 113
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2d6d458c5b3470e9f6bbb043c01260
+      internalID: 971027015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 428-4289579_unity-sprite-sheet-explosion-hd-png-download_22
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 113
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be918740d328e4bc18ade0cc2229a7f4
+      internalID: 1651373837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 428-4289579_unity-sprite-sheet-explosion-hd-png-download_23
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 113
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651ba3e23634a4f96af3cdf76fcbbd2d
+      internalID: 1629018437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 428-4289579_unity-sprite-sheet-explosion-hd-png-download_24
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 0
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b287139df820a43d987b9b783812ca19
+      internalID: 2013979670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 428-4289579_unity-sprite-sheet-explosion-hd-png-download_25
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 0
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc8eb53d547e4bb585f32e9140369ec
+      internalID: 85620706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 428-4289579_unity-sprite-sheet-explosion-hd-png-download_26
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 0
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c91cc3d4192419a88b26eea82d903d
+      internalID: 2043522383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 428-4289579_unity-sprite-sheet-explosion-hd-png-download_27
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 0
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e8be97dd88634544a3a856fc5b456fc
+      internalID: 1490142613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 428-4289579_unity-sprite-sheet-explosion-hd-png-download_28
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 0
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3111764ea9f7d48be85d3a3f3acf4022
+      internalID: 744085368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 428-4289579_unity-sprite-sheet-explosion-hd-png-download_29
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 0
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a886cfe9c69c4e319f00bf2a7693c59
+      internalID: 1004844466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 428-4289579_unity-sprite-sheet-explosion-hd-png-download_30
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 0
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79b59bd34edb4eaeabffc0c9aa1d427
+      internalID: -697333846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 428-4289579_unity-sprite-sheet-explosion-hd-png-download_31
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 0
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8002c516fbf6f4c6a81ea7a9cb72a615
+      internalID: -1243215279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 55467654432644b7187e126a64031979
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":4.0},"gridSpriteSize":{"x":103.0,"y":113.0},"gridSpriteOffset":{"x":10.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      428-4289579_unity-sprite-sheet-explosion-hd-png-download_0: 1384019006384410279
+      428-4289579_unity-sprite-sheet-explosion-hd-png-download_1: 1599388964
+      428-4289579_unity-sprite-sheet-explosion-hd-png-download_10: 1351203786
+      428-4289579_unity-sprite-sheet-explosion-hd-png-download_11: 677509959
+      428-4289579_unity-sprite-sheet-explosion-hd-png-download_12: -1712325049
+      428-4289579_unity-sprite-sheet-explosion-hd-png-download_13: 1341930124
+      428-4289579_unity-sprite-sheet-explosion-hd-png-download_14: 1256345801
+      428-4289579_unity-sprite-sheet-explosion-hd-png-download_15: -835069389
+      428-4289579_unity-sprite-sheet-explosion-hd-png-download_16: 535437512
+      428-4289579_unity-sprite-sheet-explosion-hd-png-download_17: 312956210
+      428-4289579_unity-sprite-sheet-explosion-hd-png-download_18: -87769941
+      428-4289579_unity-sprite-sheet-explosion-hd-png-download_19: -574847484
+      428-4289579_unity-sprite-sheet-explosion-hd-png-download_2: 1163082342
+      428-4289579_unity-sprite-sheet-explosion-hd-png-download_20: -2105730150
+      428-4289579_unity-sprite-sheet-explosion-hd-png-download_21: 971027015
+      428-4289579_unity-sprite-sheet-explosion-hd-png-download_22: 1651373837
+      428-4289579_unity-sprite-sheet-explosion-hd-png-download_23: 1629018437
+      428-4289579_unity-sprite-sheet-explosion-hd-png-download_24: 2013979670
+      428-4289579_unity-sprite-sheet-explosion-hd-png-download_25: 85620706
+      428-4289579_unity-sprite-sheet-explosion-hd-png-download_26: 2043522383
+      428-4289579_unity-sprite-sheet-explosion-hd-png-download_27: 1490142613
+      428-4289579_unity-sprite-sheet-explosion-hd-png-download_28: 744085368
+      428-4289579_unity-sprite-sheet-explosion-hd-png-download_29: 1004844466
+      428-4289579_unity-sprite-sheet-explosion-hd-png-download_3: -889496862
+      428-4289579_unity-sprite-sheet-explosion-hd-png-download_30: -697333846
+      428-4289579_unity-sprite-sheet-explosion-hd-png-download_31: -1243215279
+      428-4289579_unity-sprite-sheet-explosion-hd-png-download_4: -1634468367
+      428-4289579_unity-sprite-sheet-explosion-hd-png-download_5: -291563891
+      428-4289579_unity-sprite-sheet-explosion-hd-png-download_6: -1637916181
+      428-4289579_unity-sprite-sheet-explosion-hd-png-download_7: -1015660204
+      428-4289579_unity-sprite-sheet-explosion-hd-png-download_8: 412629535
+      428-4289579_unity-sprite-sheet-explosion-hd-png-download_9: -1972302620
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

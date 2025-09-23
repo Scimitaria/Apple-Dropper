@@ -5,11 +5,28 @@ using UnityEngine.SceneManagement;
 public class Apple : MonoBehaviour
 {
     private bool isDestroying = false;
+    public GameObject[] baskets = new GameObject[3];
+    private ScoreManager scoreManager;
+    void Start()
+    {
+        GameObject parentObject = GameObject.Find("Baskets");
+        scoreManager = FindFirstObjectByType<ScoreManager>();
+        for (int i = 0; i < parentObject.transform.childCount; i++)
+        {
+            baskets[i] = parentObject.transform.GetChild(i).gameObject;
+        }
+    }
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.name == "Basket")
         {
-            if (gameObject.name == "Bomb(Clone)") Destroy(collision.gameObject);
+            if (gameObject.name == "Bomb(Clone)")
+            {
+                gameObject.GetComponent<Animator>().SetTrigger("splode");
+                if (baskets.Length <= 1) SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                else Destroy(collision.gameObject);
+            }
+            else scoreManager.AddScore(10);
     
             isDestroying = true;
             Destroy(gameObject);
@@ -19,8 +36,9 @@ public class Apple : MonoBehaviour
     {
         if (!isDestroying && gameObject.name == "Apple(Clone)")
         {
-            try { Destroy(GameObject.Find("Basket")); }//this doesn't work
-            catch { SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); }
+            if (baskets.Length <= 1) SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            else Destroy(baskets[0]);
+
             Destroy(gameObject);
         }
         else isDestroying = false;
