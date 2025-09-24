@@ -6,12 +6,14 @@ using UnityEngine.SceneManagement;
 public class Apple : MonoBehaviour
 {
     private Score score;
+    public float speed;
     private Rigidbody2D rb;
     private bool isDestroying = false;
     void Start()
     {
         score = FindFirstObjectByType<Score>();
         rb = GetComponent<Rigidbody2D>();
+        rb.linearVelocityY = speed;
     }
     void OnTriggerEnter2D(Collider2D collision)
     {

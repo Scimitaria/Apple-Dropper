@@ -4,7 +4,6 @@ using UnityEngine.InputSystem;
 public class Basket : MonoBehaviour
 {
     private float movement;
-    public float speed;
 
     void OnMouseMove(InputValue value)
     {
